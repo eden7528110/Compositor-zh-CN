@@ -24,8 +24,8 @@ QString applyMnemonic(const QString& key, const QString& translated) {
 const QHash<QString, QString>& table() {
     static const QHash<QString, QString> map = {
         // ---- Application / window -------------------------------------
-        {"Compositor", "Compositor"},
-        {"Compositor Windows", "Compositor Windows"},
+        {"Compositor", "Compositor 简体中文版"},
+        {"Compositor Windows", "Compositor 简体中文版"},
         {"Create a canvas or import an image", "新建画布或导入图像"},
 
         // ---- Menus ------------------------------------------------------

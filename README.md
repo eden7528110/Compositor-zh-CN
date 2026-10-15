@@ -73,8 +73,9 @@ bindCommand(item, menuKey, name, std::move(invoke));     // 仍传英文键
 
 ## 下载
 
-编译好的便携版（Windows 11 x64，237 MB）发布在
-**[Releases](../../releases)** 页面，解压即可运行，无需安装。
+编译好的便携版（Windows 11 x64，约 237 MB）以附件
+`Compositor-1.0.4-zh-CN-win64-portable.zip` 发布在
+**[Releases](../../releases)** 页面，解压后双击 `Compositor.exe` 即可运行，无需安装。
 
 > GitHub 单文件上限 100 MB，离线抠图模型（173 MB）与 Qt 源码包（47 MB）
 > 未纳入版本库，请从 Release 附件获取完整可运行包。
