@@ -1,0 +1,62 @@
+MIT License
+
+Copyright (c) 2026 Wonder Assembly LLC
+Copyright (c) 2026 Compositor Windows contributors (Simplified Chinese localization)
+
+This project is a derivative work. It contains code from the following projects:
+
+1. Compositor — the original macOS image compositor.
+   Copyright (c) 2026 Wonder Assembly LLC
+   https://github.com/robbietilton/Compositor
+   Licensed under the MIT License.
+
+2. CompositorWindows — an independent community port of Compositor to Windows
+   (C++ / Qt 6 / DirectX 11), which serves as the upstream baseline for this
+   repository.
+   https://github.com/IAmTheBlurr/CompositorWindows
+   Licensed under the MIT License.
+
+3. BiRefNet (birefnet-lite) — the offline foreground/subject extraction model
+   used by the background removal feature.
+   https://github.com/ZhengPeng7/BiRefNet
+   Licensed under the MIT License.
+
+The Simplified Chinese localization, the translation catalogue, and the build
+scripts under build-scripts/ are the contribution of this repository's
+maintainers and are likewise released under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+Third-party components distributed with the compiled application carry their
+own licenses and are NOT covered by the MIT license above:
+
+  * Qt 6.8.3 — dynamically linked, LGPL-3.0 (with component-specific notices)
+  * libheif  — dynamically linked, LGPL-3.0-or-later
+  * libde265 — dynamically linked, LGPL-3.0-or-later
+  * ONNX Runtime — MIT
+  * Microsoft Visual C++ runtime DLLs — redistributed app-locally under
+    Microsoft terms
+  * Windows system components — supplied by Windows 11
+
+Full license texts and corresponding-source notices are reproduced in the
+`licenses/` directory of this repository and in the `licenses/` directory of
+the portable release package. Users of the LGPL components may replace the
+application-local DLLs and run the executable directly.

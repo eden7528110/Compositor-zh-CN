@@ -1,0 +1,24 @@
+# Normalize line endings: store LF in the repo, check out per platform.
+* text=auto eol=lf
+
+# Windows-only scripts and projects require CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+
+# Keep HLSL / shader sources as-is.
+*.hlsl text eol=lf
+
+# Binary assets never get EOL translation.
+*.dll binary
+*.exe binary
+*.onnx binary
+*.png binary
+*.jpg binary
+*.icns binary
+
+# Linguist: treat documentation as prose, exclude vendored/generated paths.
+docs/* linguist-documentation
+*.md linguist-documentation

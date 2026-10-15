@@ -1,0 +1,60 @@
+# ---- Build output ----------------------------------------------------------
+build/
+build-*/
+out/
+*.obj
+*.o
+*.lib
+*.a
+*.exp
+*.pdb
+*.ilk
+*.idb
+
+# ---- MSVC / IDE -----------------------------------------------------------
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# ---- Large binary dependencies (fetched by build-scripts/) -----------------
+# These exceed GitHub's 100 MB per-file limit and are redistributed through
+# upstream projects / the official release, not vendored in git.
+src/dependencies/qt/
+src/dependencies/imaging/install/
+src/dependencies/imaging/build*/
+src/dependencies/imaging/lock.local.json
+src/dependencies/imaging/model/
+*.onnx
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+
+# ---- Localization tooling (one-off migration scripts) ----------------------
+localize.py
+localize2.py
+localize3.py
+localize4.py
+fix_menus.py
+fix_includes.py
+fix_edit.py
+scan_strings.py
+scan_display.py
+scan_rest.py
+filter_rest.py
+
+# ---- Packaged app staging --------------------------------------------------
+图像合成器/
+compositor-zh-package/
+compositor-win-package/
+
+# ---- OS noise --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
