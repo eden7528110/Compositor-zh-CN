@@ -58,3 +58,6 @@ compositor-win-package/
 Thumbs.db
 desktop.ini
 *.lnk
+github-credentials.txt
+
+.git-askpass.py
